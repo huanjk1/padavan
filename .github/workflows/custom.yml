@@ -206,7 +206,7 @@ jobs:
           echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=${{env.vlmcsd}}" >> .config
           echo "CONFIG_FIRMWARE_INCLUDE_TTYD=${{env.ttyd}}" >> .config
           echo "CONFIG_FIRMWARE_INCLUDE_IPERF3=${{env.iperf3}}" >> .config
-          echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=${{env.iperf3}}" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=${{env.ddnsto}}" >> .config
           # cpufreq
           if ${{ github.event.inputs.cpufreq == 'true' }}; then
             echo "CONFIG_FIRMWARE_INCLUDE_OC=y" >> .config
