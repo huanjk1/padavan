@@ -103,7 +103,7 @@ on:
         description: 'String JSON list of plug-ins'
         required: true
         type: string
-        default: '{"ss":"n","v2ray":"n","xray":"n","trojan":"n","ssobfs":"n","smartdns":"y","vlmcsd":"n","ttyd":"n","iperf3":"n",,"zerotier":"y"}'
+        default: '{"ss":"n","v2ray":"n","xray":"n","trojan":"n","ssobfs":"n","smartdns":"y","vlmcsd":"n","ttyd":"n","iperf3":"n","zerotier":"y"}'
       customization:
         description: 'String JSON list of Customization'
         required: true
